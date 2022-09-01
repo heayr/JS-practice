@@ -29,23 +29,23 @@ if (typeof x == isNaN && isFinite && undefined && null && BigInt && Symbol && Fu
     console.log('x - тип не определён');
 };
 
-const numberY = 'number';
-const stringY = 'string';
-const booleanY = 'boolean';
 let y = NaN;
 
 switch (typeof y) {
     case 'number':
-        console.log('х - номер');
+        console.log('y - номер');
         break;
     case 'string':
-        console.log('х - строка');
+        console.log('y - строка');
         break;
     case 'boolean':
-        console.log('х - логический тип');
+        console.log('y - логический тип');
+        break;
+    case NaN:
+        console.log('y - тип не определён');
         break;
     default:
-        console.log('x - тип не определён');
+        console.log('y - тип не определён');
 }
 
 
