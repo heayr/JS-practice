@@ -30,15 +30,4 @@ switch (typeof y) {
     default:
         console.log('x - тип не определён');
 }
-let value = '2';
 
-function detectType(value) {
-    switch (typeof value) {
-        case 'string':
-            return "str";
-        case 'number':
-            return "num";
-        default:
-            return "other";
-    }
-}
