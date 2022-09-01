@@ -34,19 +34,23 @@ const stringY = 'string';
 const booleanY = 'boolean';
 let y = NaN;
 
-switch (y) {
-    case numberY:
+switch (typeof y) {
+    case 'number':
         console.log('х - номер');
         break;
-    case stringY:
+    case 'string':
         console.log('х - строка');
         break;
-    case booleanY:
+    case 'boolean':
         console.log('х - логический тип');
         break;
     default:
         console.log('x - тип не определён');
 }
+
+
+
+
 
 // <<<<<<<<<<<   отразить string   >>>>>>>>>>>>>>>
 const str = 'Hello';
