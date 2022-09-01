@@ -12,7 +12,7 @@ if (typeof x == isNaN && isFinite && undefined && null && BigInt && Symbol && Fu
     console.log('x - тип не определён');
 };
 
-let y = 1;
+let y = '1';
 
 switch (typeof y) {
     case 'number':
@@ -23,9 +23,6 @@ switch (typeof y) {
         break;
     case 'boolean':
         console.log('y - логический тип');
-        break;
-    case isNaN(y):
-        console.log('y - тип не определён');
         break;
     default:
         console.log('y - тип не определён');
