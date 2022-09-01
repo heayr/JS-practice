@@ -16,7 +16,7 @@ if (typeof inputValue == 'number' && !isNaN(inputValue)) {
 }
 
 // <<<<<<<<<<    тип переменной Х     >>>>>>>>>>>>>
-let x = '';
+let x = 1;
 
 if (typeof x == isNaN && isFinite && undefined && null && BigInt && Symbol && Function) {
 } else if (typeof x == 'number') {
@@ -28,6 +28,25 @@ if (typeof x == isNaN && isFinite && undefined && null && BigInt && Symbol && Fu
 } else {
     console.log('x - тип не определён');
 };
+
+const numberY = 'number';
+const stringY = 'string';
+const booleanY = 'boolean';
+let y = NaN;
+
+switch (y) {
+    case numberY:
+        console.log('х - номер');
+        break;
+    case stringY:
+        console.log('х - строка');
+        break;
+    case booleanY:
+        console.log('х - логический тип');
+        break;
+    default:
+        console.log('x - тип не определён');
+}
 
 // <<<<<<<<<<<   отразить string   >>>>>>>>>>>>>>>
 const str = 'Hello';
