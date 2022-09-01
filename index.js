@@ -41,7 +41,7 @@ switch (typeof y) {
     case 'boolean':
         console.log('y - логический тип');
         break;
-    case NaN:
+    case isNaN(y):
         console.log('y - тип не определён');
         break;
     default:
